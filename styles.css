@@ -1,0 +1,145 @@
+/* CSS for Age Calculator Application */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Center the content vertically and horizontally */
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container for calculator */
+.main {
+  width: 100%;
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Calculator box styling */
+.container {
+  width: 750px;
+  max-width: 98vw;
+  padding: 48px 32px;
+  /* Add gradient background to container */
+  background: linear-gradient(135deg, #f7fbff 0%, #e0eafc 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0, 98, 204, 0.1);
+  transition: box-shadow 0.3s;
+}
+
+/* Box shadow effect on hover */
+.container:hover {
+  box-shadow: 0 12px 40px rgba(0, 98, 204, 0.18);
+}
+
+/* Title styling */
+h2 {
+  font-size: 2.6rem;
+  color: #0062cc;
+  margin-bottom: 4px;
+  background: none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px #e0eafc;
+}
+
+/* Subtitle styling */
+h6 {
+  font-size: 1.15rem;
+  color: #3a8dde;
+  background: none;
+  font-weight: 500;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+/* Date input styling */
+input[type="date"] {
+  width: 45%;
+  padding: 12px 14px;
+  border: 1.5px solid #bcdffb;
+  border-radius: 8px;
+  font-size: 1.15rem;
+  outline: none;
+  transition: border-color 0.2s;
+  background: #f7fbff;
+  color: #222;
+  font-weight: 500;
+}
+
+/* Date input focus effect */
+input[type="date"]:focus {
+  border-color: #0062cc;
+  background: #e0eafc;
+}
+
+/* Calculate button styling */
+#btn {
+  width: 180px;
+  height: 44px;
+  background: linear-gradient(90deg, #0062cc 60%, #3a8dde 100%);
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.15rem;
+  font-weight: 600;
+  box-shadow: 0 2px 12px rgba(0, 98, 204, 0.1);
+  transition: background 0.2s, box-shadow 0.2s;
+  letter-spacing: 0.5px;
+}
+
+/* Button hover effect */
+#btn:hover {
+  background: linear-gradient(90deg, #0052a3 60%, #3a8dde 100%);
+  box-shadow: 0 4px 16px rgba(0, 98, 204, 0.18);
+}
+
+/* Result text styling */
+h5#result {
+  font-size: 1.3rem;
+  color: #222;
+  background: none;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 4px #e0eafc;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .container {
+    width: 99vw;
+    padding: 18px 8px;
+    border-radius: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  #btn {
+    width: 100%;
+  }
+
+  input[type="date"] {
+    width: 100%;
+  }
+}
