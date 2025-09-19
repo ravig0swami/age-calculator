@@ -7,8 +7,8 @@ This web app allows users to input their date of birth and instantly calculates 
 
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Deployment](#deployment)
-- [Built With](#built-with)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Features
 
@@ -26,3 +26,14 @@ To get a local copy up and running, follow these simple steps:
    
      ```sh
    git clone https://github.com/ravig0swami/age-calculator.git
+
+## Contributing
+
+Contributions are welcome!
+If you’d like to enhance the project, feel free to fork the repo and submit a pull request.
+
+## License
+
+This project is licensed under the MIT License – you’re free to use, modify, and distribute it.
+
+Developed with ❤️ using HTML, CSS, and JavaScript.
