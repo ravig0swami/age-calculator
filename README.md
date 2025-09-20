@@ -6,6 +6,7 @@ This web app allows users to input their date of birth and instantly calculates 
 ## Table of Contents
 
 - [Features](#features)
+- [Screenshot](#screenshot)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
 - [License](#license)
@@ -17,6 +18,9 @@ This web app allows users to input their date of birth and instantly calculates 
 - Simple and user-friendly interface
 - Responsive design (works on desktop & mobile)
 - Built with vanilla JavaScript (no external libraries)
+
+## Screenshot
+<img width="600" height="400" alt="Screenshot_Age_Calculator" src="https://github.com/user-attachments/assets/6c83ff7d-96ff-421a-8cd3-c350b00a6bd7" />
 
 ## Getting Started
 
